@@ -1,0 +1,239 @@
+/* Global - global pieces like media queries, mixins and placholders */
+/*
+ * Colors
+ */
+:root {
+	--c-black: #000;
+	--c-white: #fff;
+
+	/* --wbpo-bg-color: #312570;
+	--wbpo-title-color: #fff;
+	--wbpo-text-color: #fff; */
+
+}
+/*
+ * Media Queries
+ */
+/* 400px */
+/* 480px */
+/* 768px */
+/* 1024px */
+/* 1280px */
+/* 1440px */
+/* WP Core Breakpoints (used for the admin bar for example) */
+/* Base - base styles such as fonts, typography, and wordpress overrides */
+/* Base */
+.wbpo-wrap-text {
+	margin-bottom: 15px;
+}
+.wbpo-products .wbpo-product {
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+	border-bottom: 2px solid #e3e3e3;
+	margin-bottom: 10px;
+}
+.wbpo-product > * {
+	padding: 0 5px;
+}
+.wbpo-thumb {
+	width: 50px;
+	flex: 0 0 50px;
+}
+.wbpo-thumb img {
+	border-radius: 3px;
+}
+.wbpo-product-content {
+	flex-grow: 1;
+}
+.wbpo-product .wbpo-product-content a {
+	text-decoration: none;
+	box-shadow: none;
+}
+.wbpo-product-content .wbpo-price-wrapper {
+	font-size: 15px;
+}
+.wbpo-product-content .wbpo-price-wrapper .wbpo-price,
+.wbpo-product-content .wbpo-price-wrapper .wbpo-tag {
+	display: inline-block;
+}
+.wbpo-product-content .wbpo-price-wrapper .wbpo-tag {
+	background-color: #b12704;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px;
+	line-height: 1;
+	white-space: nowrap;
+	margin-left: 3px;
+}
+@-webkit-keyframes blinker {
+
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+
+}
+.wbpo-product-content .wbpo-price-wrapper .wbpo-offer {
+	font-weight: 400;
+	color: #b12704;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+.wbpo-product-content .wbpo-price-wrapper .wbpo-below-offer {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1;
+}
+.wbpo-products form.variations_form {
+	margin: 0;
+	padding: 0;
+}
+.wbpo-products .wbpo-product form.variations_form .variations {
+	margin: 0;
+	padding: 0;
+}
+.wbpo-products .wbpo-product .variations .variation {
+	display: inline-block;
+	border: 1px solid #e5e5e5;
+	padding: 5px 10px;
+	margin: 5px 3px 0 3px;
+	max-width: 100%;
+	border-radius: 2px;
+}
+.wbpo-products .wbpo-product .variations .variation .label {
+	font-size: 12px;
+	line-height: 1;
+}
+.wbpo-products .wbpo-product  .variations .variation > div {
+	display: block;
+	line-height: 1;
+}
+.wbpo-products .wbpo-product .variations .variation .select select {
+	width: 100%;
+	line-height: 1;
+	padding: 8px 26px 8px 5px;
+	background-color: transparent;
+	border-radius: 0;
+	display: inline-block !important;
+	height: auto;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNEQzN0Y2NTY0NjcxMUU3QjU5NUI5N0U0NjlDMTIzNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNEQzN0Y2NjY0NjcxMUU3QjU5NUI5N0U0NjlDMTIzNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY0RDM3RjYzNjQ2NzExRTdCNTk1Qjk3RTQ2OUMxMjM2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY0RDM3RjY0NjQ2NzExRTdCNTk1Qjk3RTQ2OUMxMjM2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+pzgqpQAAADdJREFUeNpirKioWMDAwBDPgAoWMQGJLCC+hiR4HYgzQRLfgDgUSoNwCIhmgaq6BtXJCNMNEGAAbM0MK7OUU3AAAAAASUVORK5CYII=");
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	background-size: auto;
+}
+.wbpo-products .wbpo-product.simple .variations .variation .select select {
+	padding: 3px 16px 3px 0;
+	background-position: 100% 50%;
+}
+.wbpo-product .woo-selected-variation-item-name {
+	display: none;
+}
+.wbpo-product .variations_form  ul {
+	display: none;
+}
+.wbpo-qty {
+	width: 130px;
+	flex: 0 0 130px;
+	display: flex;
+	align-items: center;
+}
+.wbpo-qty.hide-qty-btn {
+	width: 80px;
+	flex: 0 0 80px;
+	display: none;
+}
+.wbpo-qty-mod {
+	display: inline-block;
+	width: 40px;
+	flex: 0 0 40px;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #fefefe !important;
+	border: 1px solid #e5e5e5;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+.wbpo-products .wbpo-product .quantity {
+	flex-grow: 1;
+}
+.wbpo-product .wbpo-qty:not(.hide-qty-btn) .quantity input::-webkit-outer-spin-button,
+.wbpo-product .wbpo-qty:not(.hide-qty-btn) .quantity input::-webkit-inner-spin-button {
+	-webkit-appearance: none; 	/* display: none; <- Crashes Chrome on hover */
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.wbpo-product .quantity input {
+	width: 100%;
+	text-align: center;
+	padding: 0 5px;
+	height: 40px;
+	line-height: 38px;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	background-color: #fff;
+	background-image: none;
+	outline: 0;
+}
+.wbpo-unpurchasable {
+	opacity: 0.8;
+}
+.wbpo-unpurchasable * {
+	pointer-events: none;
+}
+.wbpo-total {
+	font-weight: 700;
+	display: none;
+}
+.wbpo-product[data-selection-type="radio"]:not(.checked) .variations_form,
+.wbpo-product[data-selection-type="checkbox"]:not(.checked) .variations_form,
+.wbpo-product[data-selection-type="radio"]:not(.checked) .wbpo-above-variation,
+.wbpo-product[data-selection-type="checkbox"]:not(.checked) .wbpo-above-variation {
+	display: none;
+}
+.wbpo-price del {
+	opacity: 1 !important;
+}
+.wbpo-product .wbpo-above-variation {
+	margin-top: 20px;
+	line-height: 1;
+	font-size: 13px;
+	font-weight: 600;
+}
+.wbpo-products .wbpo-availability {
+	font-weight: 400 !important;
+}
+.wbpo-product[data-selection-type="radio"],
+.wbpo-product[data-selection-type="checkbox"] {
+	cursor: pointer;
+}
+.wbpo-product .reset_variations {
+	display: none !important;
+}
+.wbpo-product ins {
+	background: none;
+}
+.wbpo-trust-wrapper,
+.wbpo-checklist-wrapper {
+	margin-top: 5px;
+}
+/* Components */
+/* @import url("components/index.css"); */
+
+
+/*# sourceMappingURL=style.css.map*/

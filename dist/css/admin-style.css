@@ -1,0 +1,270 @@
+/**
+ * Admin only styles
+ */
+
+div.form-field {
+	padding: 5px 20px 5px 162px !important;
+}
+
+#wbpo-search-products {
+	float: left;
+	width: 50%;
+}
+
+.wbpo-search-products ul {
+	margin: 0;
+	padding: 0;
+}
+
+.wbpo-search-products li {
+	padding: 6px 0;
+	margin: 0 -3px;
+	border-bottom: 1px dotted #eee;
+	min-height: 30px;
+	position: relative;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+.wbpo-search-products .main-content {
+	display: flex;
+	justify-content: center;
+}
+
+.wbpo-search-products .move,
+.wbpo-search-products .remove,
+.wbpo-search-products .add {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	flex: 0 0 30px;
+	border-radius: 2px;
+	background-color: #eee;
+	cursor: move;
+}
+
+.wbpo-search-products .move:hover {
+	background-color: #cecece;
+}
+
+.wbpo-search-products .move::before {
+	content: "\f545";
+	font-family: dashicons;  /* stylelint-disable-line */
+	font-size: 10px;
+	color: #999;
+}
+
+.wbpo-search-products .remove:hover {
+	cursor: pointer;
+	background: #dc3545;
+	color: #fff !important;
+}
+
+.wbpo-search-products .add:hover {
+	cursor: pointer;
+	background: #28a745;
+	color: #fff !important;
+}
+
+.wbpo-search-products span.qty {
+	display: inline-block;
+	width: 50px;
+}
+
+.wbpo-search-products .qty {
+	display: none !important;
+}
+
+.wbpo-search-products input[type="number"] {
+	font-size: 13px;
+	height: 30px;
+	line-height: 1;
+	float: none;
+	width: 50px !important;
+}
+
+.wbpo-search-products li .main-content span {
+	margin: 0 3px;
+}
+
+.wbpo-search-products span.data {
+	flex-grow: 1;
+}
+
+.wbpo-search-products li span.info {
+	font-size: 12px;
+	font-style: italic;
+	height: 18px;
+	line-height: 18px;
+	color: #999;
+	background-color: #fafafa;
+	text-decoration: none;
+	padding: 0 6px;
+	border-radius: 2px;
+}
+
+[dir="ltr"] .wbpo-search-products .type {
+	text-align: left;
+}
+
+[dir="rtl"] .wbpo-search-products .type {
+	text-align: right;
+}
+
+.wbpo-search-products .type {
+	font-size: 10px;
+	min-width: 40px;
+	color: #999;
+	text-decoration: none;
+}
+
+.wbpo-search-products li.out-of-stock .name {
+	text-decoration: line-through;
+}
+
+.form-field.group-products {
+	position: relative;
+}
+
+.wbpo-search-products .wbpo-more-detail {
+	background: #e0e0e0;
+}
+
+.wbpo-search-products .more-info {
+	cursor: pointer;
+}
+
+.wbpo-search-products .more-info.open::after {
+	content: "↑";
+}
+
+.wbpo-search-products .more-info.close::after {
+	content: "↓";
+}
+
+#wbpo-results {
+	position: relative;
+	top: -15px;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	width: 50%;
+	height: 100%;
+	max-height: 196px;
+	z-index: 9999;
+	overflow-y: auto;
+}
+
+#wbpo-results .move,
+#wbpo-results .qty,
+#wbpo-results .more-info {
+	display: none;
+}
+
+#wbpo-results li {
+	padding: 5px;
+}
+
+#wbpo-results .no-found {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	padding: 50px 15px;
+}
+
+.wbpo-search-products::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.wbpo-search-products::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background-color: #f5f5f5;
+}
+
+.wbpo-search-products::-webkit-scrollbar-thumb {
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #b5a8a8;
+}
+
+.loading-input {
+	background-image: url("../images/wpspin_light.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+#woocommerce-product-data ul.wc-tabs li.wbpo_options a::before {
+	content: "\f180";
+}
+
+.sbs-setting-inner form h2 {
+	display: none;
+}
+
+.wbpo-pro-text,
+.wbpo-pro-text:hover {
+	font-weight: 600;
+	color: #b60;
+	text-decoration: none;
+}
+
+.wbpo-pro-notice {
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.wbpo-pro-btn,
+.wbpo-pro-btn:hover {
+	line-height: 1;
+	padding: 5px 20px;
+	background: #b60;
+	color: #fff;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#wbpo_customize {
+	position: relative;
+}
+
+/* .wbpo-pro-notice {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.1);
+} */
+
+/* .wbpo-pro-notice-inner {
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	color: #000;;
+	position: relative; 
+	top: 10%;
+} */
+
+.wbpo-pro-notice-inner a.wbpo-pro-btn {
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/*# sourceMappingURL=admin-style.css.map*/

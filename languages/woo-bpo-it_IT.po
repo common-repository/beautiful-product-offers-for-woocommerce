@@ -1,0 +1,616 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Beautiful Product Offers for Woocommerce\n"
+"POT-Creation-Date: 2021-10-29 08:46-0400\n"
+"PO-Revision-Date: 2021-10-29 08:54-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bpo-woo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:21
+msgid "Add Product"
+msgstr "Aggiungi prodotto"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:22
+msgid "Search product here"
+msgstr "Cerca il prodotto qui"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:24
+msgid "Add product(s) to offer. See search options in plugin settings"
+msgstr ""
+"Aggiungi prodotti da offrire. Visualizzare le opzioni di ricerca nelle "
+"impostazioni del plug-in"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:36
+msgid "Product(s) in Offer"
+msgstr "Prodotto(i) in Offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:65
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:70
+msgid "Custom Content Under Add-to-Cart"
+msgstr "Contenuto personalizzato in Aggiungi al carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:66
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:71
+msgid "Replace Product Title"
+msgstr "Sostituisci il titolo del prodotto"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:67
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:72
+#: includes/classes/class-wbpo-settings.php:319
+msgid "Offer Design"
+msgstr "Offerta Design"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:68
+msgid "Offer layout"
+msgstr "Layout dell'offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:73
+#: includes/classes/class-wbpo-settings.php:330
+msgid "Offer Layout"
+msgstr "Layout dell'offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:80
+#: includes/classes/class-wbpo-settings.php:159
+msgid "Offer Position"
+msgstr "Posizione dell'offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:82
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:95
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:119
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:133
+msgid "Default"
+msgstr "Predefinito"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:83
+#: includes/classes/class-wbpo-settings.php:163
+msgid "Above Add to Cart Button"
+msgstr "Sopra il pulsante Aggiungi al carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:84
+#: includes/classes/class-wbpo-settings.php:164
+msgid "Under Add to Cart Button"
+msgstr "Sotto il pulsante Aggiungi al carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:93
+msgid "Offer Selection Type"
+msgstr "Tipo di selezione dell'offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:97
+#: includes/classes/class-wbpo-settings.php:174
+msgid "Multiple Selections"
+msgstr "Selezioni multiple"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:98
+#: includes/classes/class-wbpo-settings.php:175
+msgid "Single Selection"
+msgstr "Selezione singola"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:107
+msgid "Add Main Product to Cart"
+msgstr "Aggiungi il prodotto principale al carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:109
+#: includes/classes/class-wbpo-settings.php:239
+msgid ""
+"Suggested use cases: Product Kits, Pick and Mix Bundles, Bundle Sells and "
+"Upsells."
+msgstr ""
+"Casi d'uso suggeriti: kit di prodotti, pacchetti Pick and Mix, vendite di "
+"pacchetti e upsell."
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:120
+#: includes/classes/class-wbpo-settings.php:322
+msgid "Basic"
+msgstr "Base"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:121
+#: includes/classes/class-wbpo-settings.php:323
+msgid "Rounded"
+msgstr "Arrotondato"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:122
+#: includes/classes/class-wbpo-settings.php:324
+msgid "Rectangle"
+msgstr "Rettangolo"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:134
+#: includes/classes/class-wbpo-settings.php:333
+msgid "Vertical"
+msgstr "Verticale"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:135
+#: includes/classes/class-wbpo-settings.php:334
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:144
+msgid "Show Quantity Box"
+msgstr "Mostra casella quantità"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:146
+msgid "If you want to show custom quantity selector."
+msgstr "Se si desidera visualizzare il selettore di quantità personalizzato."
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:153
+msgid "Replace Price"
+msgstr "Sostituisci prezzo"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:154
+msgid ""
+"Anything you add here will replace price from “General” tab - support HTML "
+"and shortcodes"
+msgstr ""
+"Tutto ciò che aggiungi qui sostituirà il prezzo dalla scheda \"Generale\" - "
+"supporta HTML e shortcode"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:163
+msgid "Replace Add To Cart Text"
+msgstr "Sostituisci aggiungi al testo del carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:164
+msgid "Change the default Add To Cart Text"
+msgstr "Modificare il testo predefinito Aggiungi al carrello"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:166
+msgid "ex: add to bag"
+msgstr "es: aggiungi al sacchetto"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:173
+msgid "Text above offer"
+msgstr "Testo sopra l'offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:174
+msgid "ex. Choose your Offer"
+msgstr "ex. Scegli la tua Offerta"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:181
+msgid "Custom content above the Add-to-Cart"
+msgstr "Contenuto personalizzato sopra il Componente aggiuntivo"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:182
+msgid "ex. Offer Ends Thursday, 12:00 PM (support HTML and shortcodes)"
+msgstr "l’offerta termina giovedì alle 12:00 (supporto HTML e shortcode)"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:190
+msgid "Goes under the Add-to-Cart Button - support HTML and shortcodes"
+msgstr "Va sotto il pulsante Aggiungi al carrello - supporta HTML e shortcode"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:192
+msgid ""
+"ex. Free Home Delivery \n"
+" 24/7 Support \n"
+" 1 Month replace warranty"
+msgstr ""
+"consegna a domicilio gratuita, Supporto 24 ore su 24, 7 giorni su 7, 1 mese "
+"di garanzia di sostituzione"
+
+#: includes/admin/meta-boxes/views/html-product-data-wbpo.php:200
+msgid "Support HTML and Shortcodes"
+msgstr "Supporto HTML e Shortcode"
+
+#: includes/classes/class-wbpo-admin.php:88
+#: includes/classes/class-wbpo-admin.php:103
+#: includes/classes/class-wbpo-admin.php:507
+msgid "Woo BPO"
+msgstr "Woo BPO"
+
+#: includes/classes/class-wbpo-admin.php:209
+msgid "No results found for:"
+msgstr "Nessun risultato corrisponde a:"
+
+#: includes/classes/class-wbpo-admin.php:231
+msgid "Add"
+msgstr "Aggiungi"
+
+#: includes/classes/class-wbpo-admin.php:233
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: includes/classes/class-wbpo-admin.php:240
+msgid "Default quantity"
+msgstr "Quantità predefinita"
+
+#: includes/classes/class-wbpo-admin.php:247
+msgid "Sold Individually"
+msgstr "Venduto singolarmente"
+
+#: includes/classes/class-wbpo-admin.php:250
+msgid "Out of Stock"
+msgstr "Esaurito"
+
+#: includes/classes/class-wbpo-admin.php:254
+msgid "Offer Details"
+msgstr "Dettagli dell’offerta"
+
+#: includes/classes/class-wbpo-admin.php:263
+msgid "Price Tag Text"
+msgstr "Testo del Tag del Prezzo"
+
+#: includes/classes/class-wbpo-admin.php:265
+msgid "It will appear next to offer price"
+msgstr "Apparirà accanto al prezzo dell'offerta"
+
+#: includes/classes/class-wbpo-admin.php:266
+msgid "ex. Sale Price"
+msgstr "prezzo di vendita"
+
+#: includes/classes/class-wbpo-admin.php:273
+msgid "Popup  Text"
+msgstr "Testo popup"
+
+#: includes/classes/class-wbpo-admin.php:274
+msgid "ex. Most Popular"
+msgstr "ex. I più popolari"
+
+#: includes/classes/class-wbpo-admin.php:281
+msgid "Offer Incentive"
+msgstr "Offerta Incentive"
+
+#: includes/classes/class-wbpo-admin.php:282
+msgid "ex. Save 40% "
+msgstr "ex. Risparmia il 40% "
+
+#: includes/classes/class-wbpo-admin.php:284
+msgid "It will appear below popup text"
+msgstr "Apparirà sotto il testo del popup"
+
+#: includes/classes/class-wbpo-admin.php:291
+msgid "Select Options Text "
+msgstr "Seleziona Opzioni Testo "
+
+#: includes/classes/class-wbpo-admin.php:292
+msgid "ex. Choose color "
+msgstr "ex. Scegli colore "
+
+#: includes/classes/class-wbpo-admin.php:294
+msgid ""
+"We suggest to use for variation product but you can input anything you want"
+msgstr ""
+"Si consiglia di utilizzare per il prodotto di variazione, ma è possibile "
+"inserire tutto ciò che si desidera"
+
+#: includes/classes/class-wbpo-admin.php:695
+#, php-format
+msgid "Woo BPO (%s)"
+msgstr "Woo BPO (%s)"
+
+#: includes/classes/class-wbpo-admin.php:720
+#: includes/classes/class-wbpo-settings.php:74
+#: includes/classes/class-wbpo-settings.php:117
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/classes/class-wbpo-setting-api.php:665
+msgid "Choose File"
+msgstr "Scegli file"
+
+#: includes/classes/class-wbpo-setting-api.php:686
+msgid "Choose Image"
+msgstr "Scegli un'immagine"
+
+#: includes/classes/class-wbpo-settings.php:62
+#: includes/classes/class-wbpo-settings.php:63
+msgid "Woo BPO "
+msgstr "Woo BPO "
+
+#: includes/classes/class-wbpo-settings.php:73
+msgid "Beautiful Product offer "
+msgstr "Bella offerta di prodotti "
+
+#: includes/classes/class-wbpo-settings.php:109
+#: includes/classes/class-wbpo-settings.php:111
+msgid "Styling"
+msgstr "Stile"
+
+#: includes/classes/class-wbpo-settings.php:121
+msgid "Archive Labels"
+msgstr "Archivia etichette"
+
+#: includes/classes/class-wbpo-settings.php:125
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/classes/class-wbpo-settings.php:149
+#: includes/classes/class-wbpo-settings.php:151
+msgid "Upload Trust Badge"
+msgstr "Carica badge di attendibilità"
+
+#: includes/classes/class-wbpo-settings.php:160
+msgid "Under ATC suggested use case: Upsells."
+msgstr "Sotto il caso d'uso suggerito da ATC: Upsells."
+
+#: includes/classes/class-wbpo-settings.php:170
+msgid "Offer Type"
+msgstr "Tipo di offerta"
+
+#: includes/classes/class-wbpo-settings.php:181
+msgid "Product Title On-Click Action"
+msgstr "Titolo del prodotto Azione on-click"
+
+#: includes/classes/class-wbpo-settings.php:184
+msgid "No Action"
+msgstr "Nessuna azione"
+
+#: includes/classes/class-wbpo-settings.php:185
+msgid "Open product in new Tab"
+msgstr "Apri il prodotto in una nuova scheda"
+
+#: includes/classes/class-wbpo-settings.php:186
+msgid "Open product in same Tab"
+msgstr "Apri il prodotto nella stessa scheda"
+
+#: includes/classes/class-wbpo-settings.php:191
+msgid "Show Thumbnail"
+msgstr "Mostra miniatura"
+
+#: includes/classes/class-wbpo-settings.php:193
+msgid "Thumbnail of Pre-determined product in Offer."
+msgstr "Miniatura del prodotto predeterminato nell'offerta."
+
+#: includes/classes/class-wbpo-settings.php:198
+msgid "Variation Change Image"
+msgstr "Variazione Cambia immagine"
+
+#: includes/classes/class-wbpo-settings.php:204
+msgid "Show Short Description"
+msgstr "Mostra Descrizione Breve"
+
+#: includes/classes/class-wbpo-settings.php:210
+msgid "Show Price"
+msgstr "Mostra Prezzo"
+
+#: includes/classes/class-wbpo-settings.php:223
+msgid "Price Change"
+msgstr "CAMBIO PREZZI"
+
+#: includes/classes/class-wbpo-settings.php:224
+msgid "When variation or quantity update change main product price."
+msgstr ""
+"Quando la variazione o l'aggiornamento della quantità cambia il prezzo "
+"principale del prodotto."
+
+#: includes/classes/class-wbpo-settings.php:230
+msgid "Custom Price Selector"
+msgstr "Selettore di prezzi personalizzato"
+
+#: includes/classes/class-wbpo-settings.php:233
+msgid ""
+"Woo BPO lets you replace the content of the price section. This works for "
+"themes that have the default woocommerce \".price\" selector. If your theme "
+"selector is different, please enter it above."
+msgstr ""
+"Woo BPO ti consente di sostituire il contenuto della sezione dei prezzi. "
+"Questo funziona per i temi che hanno il selettore predefinito woocommerce \"."
+"price\". Se il tuo selettore di temi è diverso, inseriscilo sopra."
+
+#: includes/classes/class-wbpo-settings.php:238
+msgid "Add Main Product in Cart"
+msgstr "Aggiungi il prodotto principale nel carrello"
+
+#: includes/classes/class-wbpo-settings.php:262
+msgid "Archive label for purchaseable Offer"
+msgstr "Etichetta di archivio per l'offerta acquistabile"
+
+#: includes/classes/class-wbpo-settings.php:269
+msgid "Archive label for not purchaseable Offer"
+msgstr "Etichetta di archivio per l'offerta non acquistabile"
+
+#: includes/classes/class-wbpo-settings.php:278
+msgid "Search limit"
+msgstr "Limite di ricerca"
+
+#: includes/classes/class-wbpo-settings.php:286
+msgid "Search by ID"
+msgstr "Ricerca per ID"
+
+#: includes/classes/class-wbpo-settings.php:287
+msgid "Only when you add numeric value."
+msgstr "Solo quando si aggiunge un valore numerico."
+
+#: includes/classes/class-wbpo-settings.php:292
+msgid "Search by SKU"
+msgstr "Cerca per SKU"
+
+#: includes/classes/class-wbpo-settings.php:297
+msgid "Add Same Product"
+msgstr "Aggiungi lo stesso prodotto"
+
+#: includes/classes/class-wbpo-settings.php:298
+msgid "Add already exist product in list."
+msgstr "Aggiungi prodotto già esistente nell'elenco."
+
+#: includes/classes/class-wbpo-settings.php:303
+msgid "Exact Search"
+msgstr "Ricerca esatta"
+
+#: includes/classes/class-wbpo-settings.php:304
+msgid "exactly word match with product title or content?"
+msgstr ""
+"esattamente la parola corrisponde al titolo o al contenuto del prodotto?"
+
+#: includes/classes/class-wbpo-settings.php:309
+msgid "Sentence Search"
+msgstr "Ricerca frase"
+
+#: includes/classes/class-wbpo-settings.php:310
+msgid "Do a full phrase search not words?"
+msgstr "Una frase completa cerca non le parole?"
+
+#: includes/classes/class-wbpo-settings.php:340
+msgid "Font Weight"
+msgstr "Font Weight"
+
+#: includes/classes/class-wbpo-settings.php:343
+msgid "Regular"
+msgstr "Regolare"
+
+#: includes/classes/class-wbpo-settings.php:344
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/classes/class-wbpo-settings.php:345
+msgid "Bold"
+msgstr "Grassetto"
+
+#: includes/classes/class-wbpo-settings.php:351
+msgid "Border Color"
+msgstr "Colore Bordo"
+
+#: includes/classes/class-wbpo-settings.php:356
+msgid "Box Shadow Color"
+msgstr "Colore ombra scatola"
+
+#: includes/classes/class-wbpo-settings.php:361
+msgid "Offer Background Color"
+msgstr "Offri colore di sfondo"
+
+#: includes/classes/class-wbpo-settings.php:366
+msgid "Offer Hover | Active Background Color"
+msgstr "Offerta Hover | Colore di sfondo attivo"
+
+#: includes/classes/class-wbpo-settings.php:376
+msgid "Short Description & Offer details Text Color"
+msgstr "Breve descrizione e dettagli dell'offerta Colore del testo"
+
+#: includes/classes/class-wbpo-settings.php:381
+msgid "Short Description & Offer details Text Hover | Active Color"
+msgstr "Breve descrizione e dettagli dell'offerta Testo Hover | Colore attivo"
+
+#: includes/classes/class-wbpo-settings.php:386
+msgid "Product Title Color"
+msgstr "Colore Titolo Prodotto"
+
+#: includes/classes/class-wbpo-settings.php:391
+msgid "Product Title Hover | Active Color"
+msgstr "Titolo del prodotto Al passaggio del mouse | Colore attivo"
+
+#: includes/classes/class-wbpo-settings.php:401
+msgid "Regular Price Color"
+msgstr "Colore del prezzo normale"
+
+#: includes/classes/class-wbpo-settings.php:406
+msgid "Regular Price Hover | Active Color"
+msgstr "Prezzo normale Hover | Colore attivo"
+
+#: includes/classes/class-wbpo-settings.php:411
+msgid "Sale Price Color"
+msgstr "Colore prezzo scontato"
+
+#: includes/classes/class-wbpo-settings.php:416
+msgid "Sale Price Hover | Active Color"
+msgstr "Prezzo di vendita Hover | Colore attivo"
+
+#: includes/classes/class-wbpo-settings.php:421
+msgid "Variation Select Color"
+msgstr "Variazione Seleziona colore"
+
+#: includes/classes/class-wbpo-settings.php:426
+msgid "Tag Text Color"
+msgstr "Tag Color testo"
+
+#: includes/classes/class-wbpo-settings.php:431
+msgid "Tag Background Color"
+msgstr "Tag Colore di sfondo"
+
+#: includes/classes/class-wbpo-settings.php:436
+msgid "Popup Text Color"
+msgstr "Colore testo popup"
+
+#: includes/classes/class-wbpo-settings.php:441
+msgid "Add To Cart Text Color"
+msgstr "Aggiungi al colore del testo del carrello"
+
+#: includes/classes/class-wbpo-settings.php:446
+msgid "Add To Cart Hover Text Color"
+msgstr "Aggiungi al carrello Colore del testo al passaggio del mouse"
+
+#: includes/classes/class-wbpo-settings.php:451
+msgid "Add To Cart Background Color"
+msgstr "Aggiungi al colore di sfondo del carrello"
+
+#: includes/classes/class-wbpo-settings.php:456
+msgid "Add To Cart Hover Background Color"
+msgstr "Aggiungi al carrello Colore di sfondo al passaggio del mouse"
+
+#: includes/classes/class-wc-product-wbpo.php:92 includes/core.php:163
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: includes/classes/class-wc-product-wbpo.php:108 includes/core.php:162
+msgid "Select options"
+msgstr "Seleziona opzioni"
+
+#: includes/classes/class-wc-product-wbpo.php:113
+msgid "Read more"
+msgstr "Leggi di più"
+
+#: includes/core.php:160
+msgid ""
+"Please select some product options before adding this grouped to the cart."
+msgstr ""
+"Seleziona alcune opzioni di prodotto prima di aggiungerle raggruppate al "
+"carrello."
+
+#: includes/core.php:161
+msgid ""
+"Please choose at least one product before adding this grouped to the cart."
+msgstr ""
+"Si prega di scegliere almeno un prodotto prima di aggiungerlo raggruppato al "
+"carrello."
+
+#: includes/core.php:164
+msgid "Total"
+msgstr "Totale"
+
+#: includes/public/templates/html-group-product.php:227
+msgid "Choose"
+msgstr "Scegli"
+
+#: includes/public/templates/html-group-product.php:241
+msgid "Clear"
+msgstr "Cancella"
+
+#. Plugin Name of the plugin/theme
+msgid "Beautiful Product Offers for Woocommerce"
+msgstr "Belle offerte di prodotti per Woocommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"The first Woocommerce plugin that allows you to fully customize the "
+"appearance of your product offers and increase your Average Order Value. You "
+"can create pre-determined product bundles or allow your clients to build "
+"kits. Additionally you can customize your product title with HTML and "
+"shortcodes, you can upload trust badge and add custom HTML content above and "
+"under the Add To Cart Button."
+msgstr ""
+"Il primo plugin Woocommerce che ti consente di personalizzare completamente "
+"l'aspetto delle offerte dei tuoi prodotti e aumentare il valore medio "
+"dell'ordine. Puoi creare pacchetti di prodotti predeterminati o consentire "
+"ai tuoi clienti di creare kit. Inoltre, puoi personalizzare il titolo del "
+"tuo prodotto con HTML e shortcode, puoi caricare il badge di fiducia e "
+"aggiungere contenuti HTML personalizzati sopra e sotto il pulsante Aggiungi "
+"al carrello."
+
+#. Author of the plugin/theme
+msgid "GnKapps"
+msgstr "GnKapps"
+
+#. Author URI of the plugin/theme
+msgid "https://gnkapps.com/woocommerce-beautiful-product-offers"
+msgstr ""
